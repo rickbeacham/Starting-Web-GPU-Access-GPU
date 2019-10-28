@@ -1,0 +1,2 @@
+# Starting-Web-GPU-Access-GPU
+WebGPU is a low-level API, like WebGL.  Accessing the GPU is easy in WebGPU. Calling navigator.gpu.requestAdapter() returns a JavaScript promise that will asynchronously resolve with a GPU adapter. Think of this adapter as the graphics card. It can either be integrated (on the same chip as the CPU) or discrete (usually a PCIe card that is more performant but uses more power).
